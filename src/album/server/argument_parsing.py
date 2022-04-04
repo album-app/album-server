@@ -1,5 +1,5 @@
 from album.api import Album
-from src.album.server.server import AlbumServer
+from album.server.server import AlbumServer
 
 def start_server(album_instance: Album, args):
     server = AlbumServer(args.port, args.host)
