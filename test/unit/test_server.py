@@ -6,7 +6,7 @@ from album.core.model.catalog import Catalog
 from flask.testing import FlaskClient
 
 from album.server.server import AlbumServer
-from test_common import TestCommon
+from test.test_common import TestCommon
 
 
 @patch("album.core.controller.collection.catalog_handler.CatalogHandler._retrieve_catalog_meta_information",

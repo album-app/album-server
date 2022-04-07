@@ -16,7 +16,7 @@ from album.runner import album_logging
 from album.runner.album_logging import LogLevel
 from album.runner.core.model.coordinates import Coordinates
 from album.server.server import AlbumServer
-from integration.test_integration_core_common import TestIntegrationCoreCommon
+from test.integration.test_integration_core_common import TestIntegrationCoreCommon
 
 
 class TestIntegrationServer(flask_unittest.ClientTestCase, TestIntegrationCoreCommon):

@@ -7,7 +7,7 @@ from album.core.model.environment import Environment
 from album.core.utils.operations.file_operations import copy
 from album.runner.core.model.solution import Solution
 
-from test_common import TestCommon
+from test.test_common import TestCommon
 
 
 class TestIntegrationCoreCommon(TestCommon):

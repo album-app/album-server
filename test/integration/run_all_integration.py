@@ -1,7 +1,7 @@
 import time
 import unittest
 
-from integration import test_integration_server
+from test.integration import test_integration_server
 
 
 def main():
